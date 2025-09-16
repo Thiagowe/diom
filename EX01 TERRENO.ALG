@@ -11,17 +11,18 @@ Inicio
  escreva("Informe o comprimento do terreno: ")
  leia(comprimento)
  
- escreva("Informe o valor do metro quadrado: ")
+ escreva("Informe o valor do metro quadrado: R$")
  leia(metro)
  
  escreval("=============================================")
  area <- largura * comprimento
  
- preco <- area * metro
+ preco <- area * metrO
  
- escreval("Area do terreno: ", area:2:2)
- escreval("Pre�o do terreno: ", preco:2:2)
+ escreval("Área do terreno: ", area:2:2)
+ escreval("Preço do terreno: R$", preco:2:2)
  escreval("=============================================")
+
 
 
 Fimalgoritmo
